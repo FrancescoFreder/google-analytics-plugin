@@ -1,0 +1,5 @@
+dependencies {
+   compile ('com.google.android.gms:play-services-analytics:8.3.0') {
+       exclude module: 'support-v4'
+   }
+}
